@@ -1,0 +1,5 @@
+com\shrio\config\FreemarkerConfig.class
+com\shrio\controller\LoginController.class
+com\shrio\config\WebMvcConfig.class
+com\shrio\controller\UrlController.class
+com\shrio\ShrioApplication.class
