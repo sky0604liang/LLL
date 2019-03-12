@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.shrio.ShrioApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.902 s <<< FAILURE! - in com.shrio.ShrioApplicationTests
+contextLoads(com.shrio.ShrioApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: 
+mapping values are not allowed here
+ in 'reader', line 9, column 34:
+            request-context-attribute: request
+                                     ^
+
+
